@@ -1,6 +1,6 @@
 # PSYCHROMETRIC CALCULATOR
 
-A simple CLI psychrometric calculator based on the library from
+A simple interactive CLI psychrometric calculator based on the library from
 http://numlog.ca/psychrometrics/psychrometrics.html
 
 ## Example Output
