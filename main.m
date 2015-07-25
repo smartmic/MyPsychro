@@ -11,11 +11,11 @@ int main( int argc, const char *argv[] ) {
     // set the values
 	printf("\n");
 	printf("-------------------------------------------------------------\n");
-	printf("|        ..oOO| PSYCHROMETRIC CALCULATOR |OOo..             |\n");
-	printf("|                                                           |\n");
-	printf("| Functions from 2005 ASHRAE Handbook of Fundamentals       |\n");
-	printf("| Library provided by Numerical Logics Inc., www.numlog.ca  |\n");
-	printf("| Application developed by Martin Michel, Dec 2009          |\n");
+	printf("|     ..oOO| INTERACTIVE PSYCHROMETRIC CALCULATOR |OOo..     |\n");
+	printf("|                                                            |\n");
+	printf("| Functions from 2005 ASHRAE Handbook of Fundamentals        |\n");
+	printf("| Library provided by Numerical Logics Inc., www.numlog.ca   |\n");
+	printf("| Application developed by Martin Michel, 2009, 2015         |\n");
 	printf("-------------------------------------------------------------\n");
 	double x;
     printf("\nEnter the Dry Air Temperature [degC]: ");
@@ -24,7 +24,7 @@ int main( int argc, const char *argv[] ) {
 	
 	// method
 	int i;
-	printf("Now choose your further available Air properties: \n");
+	printf("Now choose your further available air properties: \n");
 	printf(" (1) set Pressure and Wet Bulb Temperature\n");
 	printf(" (2) set Pressure and Dew Point Temperature\n");
 	printf(" (3) set Pressure and Relative Humidity\n");
@@ -44,19 +44,19 @@ int main( int argc, const char *argv[] ) {
 	}
 	else
 	{
-	printf("Enter the Altitude: ");
+	printf("Enter the Altitude [m]: ");
     scanf("%lf", &y);
 	}
 	
 	if ( (i == 1) | (i == 4) )
 	{
-	printf("Enter the Wet Bulb Temperatur [Celsius]: ");
+	printf("Enter the Wet Bulb Temperatur [degC]: ");
     scanf("%lf", &z);
 	}
 	
 	if ( (i == 2) | (i == 5) )
 	{
-	printf("Enter the Dew Point Temperatur [Celsius]: ");
+	printf("Enter the Dew Point Temperatur [degC]: ");
     scanf("%lf", &z);
 	}
 	
