@@ -1,12 +1,17 @@
 #import <stdio.h>
+#import <locale.h>
 #import "MyPsychro.h"
 #import "Bridge.h"
 #import "Display.h"
 
 int main( int argc, const char *argv[] ) {
+
     // create a new instance
     MyPsychro *frac = [[MyPsychro alloc] init];
     MyPsychro *frac2 = [[MyPsychro alloc] init];
+
+    // set locale to display decimal separator as "."
+    setlocale(LC_NUMERIC,"C");
 
     // set the values
 	printf("\n");
@@ -94,13 +99,9 @@ int main( int argc, const char *argv[] ) {
 	while (ch = getchar() != '\n' && ch != EOF); // keeps grabbing chars until none left
 	getchar(); // NOW pause the program
 	
-	
     // free memory
     [frac dealloc];
     [frac2 dealloc];
 	
-	
     return 0;
-	
-	
 }
