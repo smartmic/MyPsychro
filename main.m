@@ -28,14 +28,14 @@ int main( int argc, const char *argv[] ) {
     [frac setDryBulbTemp:x];
 	
 	// method
-	int i;
+	unsigned int i;
 	printf("Now choose your further available air properties: \n");
 	printf(" (1) set Pressure and Wet Bulb Temperature\n");
 	printf(" (2) set Pressure and Dew Point Temperature\n");
 	printf(" (3) set Pressure and Relative Humidity\n");
-	printf(" (4) set Altitude and Wet Bulb Temperature\n");
-	printf(" (5) set Altitude and Dew Point Temperature\n");
-	printf(" (6) set Altitude and Relative Humidity\n");
+//	printf(" (4) set Altitude and Wet Bulb Temperature\n");
+//	printf(" (5) set Altitude and Dew Point Temperature\n");
+//	printf(" (6) set Altitude and Relative Humidity\n");
 	printf("\n");
 	scanf("%i", &i);
 	printf("\n");
@@ -49,6 +49,7 @@ int main( int argc, const char *argv[] ) {
 	}
 	else
 	{
+    return 1;
 	printf("Enter the Altitude [m]: ");
     scanf("%lf", &y);
 	}
