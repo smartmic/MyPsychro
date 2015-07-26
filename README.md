@@ -6,6 +6,10 @@ http://numlog.ca/psychrometrics/psychrometrics.html
 This is a legacy project to give Objective-C a try some years ago when I was a Mac
 OS X user. It ran successfully on Windows and OS X and is now adopted to Linux.
 
+## Dependencies
+* build-essentials
+* gnustep
+* gnustep-devel
 
 ## Example Usage
 ![Terminal Example](terminal.gif)

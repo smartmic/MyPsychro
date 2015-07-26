@@ -1,5 +1,0 @@
-Compilation on Linux
---------------------
-1) Make shure build-essentials, gnustep and gnustep-devel is installed.
-2) Run:
-$ gcc `gnustep-config --objc-flags` `gnustep-config --objc-libs` -o mypsychro *.m -Wall -lobjc -lm -lgnustep-base
