@@ -10,6 +10,7 @@ OS X user. It ran successfully on Windows and OS X and is now adopted to Linux.
 * build-essentials
 * gnustep
 * gnustep-devel
+* libpsychrometrics (download from numlog.ca, documentation see http://numlog.ca/psychrometrics/psychrometricsdoc.html)
 
 ## Example Usage
 ![Terminal Example](terminal.gif)
