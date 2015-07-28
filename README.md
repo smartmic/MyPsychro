@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/smartmic/MyPsychro.svg?branch=master)](https://travis-ci.org/smartmic/MyPsychro)
+
+
 # PSYCHROMETRIC CALCULATOR
 
 A simple interactive CLI psychrometric calculator based on the library from
