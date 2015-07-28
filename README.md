@@ -9,11 +9,19 @@ http://numlog.ca/psychrometrics/psychrometrics.html
 This is a legacy project to give Objective-C a try some years ago when I was a Mac
 OS X user. It ran successfully on Windows and OS X and is now adopted to Linux.
 
-## Dependencies (for compilation on Linux)
+## Dependencies 
+* Psychrometrics C/C++ library (download from http://numlog.ca/psychrometrics/psychrometrics.html)
+
+#### Mac OS X
+Should compile on Mac OS X with Xcode out of the box.
+
+#### Linux
 * build-essentials
 * gnustep
 * gnustep-devel
-* libpsychrometrics (download from numlog.ca, documentation see http://numlog.ca/psychrometrics/psychrometricsdoc.html)
+
+A makefile is provided to compile and (static) link a standalone executable.
+
 
 ## Example Usage
 ![Terminal Example](terminal.gif)
