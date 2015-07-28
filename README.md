@@ -9,7 +9,7 @@ http://numlog.ca/psychrometrics/psychrometrics.html
 This is a legacy project to give Objective-C a try some years ago when I was a Mac
 OS X user. It ran successfully on Windows and OS X and is now adopted to Linux.
 
-## Dependencies
+## Dependencies (for compilation on Linux)
 * build-essentials
 * gnustep
 * gnustep-devel
