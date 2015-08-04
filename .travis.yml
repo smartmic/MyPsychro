@@ -1,5 +1,6 @@
+sudo: required
 before_install:
-    - apt-get install gnustep gnustep-dev
+    - apt-get install gnustep gnustep-devel
 script:
     - make all
 
