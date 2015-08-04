@@ -1,6 +1,4 @@
-sudo: required
-before_install:
-    - apt-get install gnustep gnustep-devel
+language: objective-c
 script:
-    - make all
+    - make TARGET=osx
 
