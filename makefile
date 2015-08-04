@@ -10,18 +10,22 @@ all : $(OBJ)
 ifeq ($(TARGET),linux)
 	gcc -O2 -o $(NAME) $(OBJ) $(LDFLAGS)
 else
-	clang -O2 -o $(NAME) -lobj $(FRAMEWORKS)
+	clang -O2 -o $(NAME) $(OBJ) -fobjc-arc $(FRAMEWORKS)
 endif
 
 %.o: %.m 
 ifeq ($(TARGET),linux)
 		gcc $(GNUSTEPFLAGS) $(CFLAGS) $<
 else
-		gcc $(CFLAGS) $<
+		clang $(CFLAGS) $<
 endif
 
 psychrometrics.o : psychrometrics.cpp
+ifeq ($(TARGET),linux)
 	g++ $(CFLAGS) $<
+else
+	clang++ $(CFLAGS) $<
+endif
 
 .PHONY: clean
 clean :
