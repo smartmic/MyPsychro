@@ -1,1 +1,5 @@
-language: objective-c
+before_install:
+    - apt-get install gnustep gnustep-dev
+script:
+    - make all
+
