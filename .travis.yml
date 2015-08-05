@@ -1,4 +1,5 @@
 language: objective-c
 script:
     - make TARGET=osx
+    - make TARGET=osx test
 
