@@ -27,6 +27,11 @@ else
 	clang++ $(CFLAGS) $<
 endif
 
+.PHONY: test
+test :
+	expect script.exp > output.txt
+	diff test.ok output.txt
+
 .PHONY: clean
 clean :
 	rm -f *.o

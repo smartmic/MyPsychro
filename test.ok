@@ -1,0 +1,35 @@
+spawn ./mypsychro
+
+-------------------------------------------------------------
+|     ..oOO| INTERACTIVE PSYCHROMETRIC CALCULATOR |OOo..     |
+|                                                            |
+| Functions from 2005 ASHRAE Handbook of Fundamentals        |
+| Library provided by Numerical Logics Inc., www.numlog.ca   |
+| Application developed by Martin Michel, 2009, 2015         |
+-------------------------------------------------------------
+
+Enter the Dry Air Temperature [degC]: 22.9
+Now choose your further available air properties: 
+ (1) set Pressure and Wet Bulb Temperature
+ (2) set Pressure and Dew Point Temperature
+ (3) set Pressure and Relative Humidity
+
+3
+
+Enter the Air Pressure [bar(a)]: 1.002
+Enter the Relative Humidity: 0.23
+
+ Your Set of Air Properties is: 
+..............................................................
+ Dry Bulb Temperature [degC]        22.90
+ Wet Bulb Temperature [degC]        11.64
+ Dew Point Temperature [degC]       0.67
+ Relative Humidity [%]              23.00
+ Humiditiy Ration [gH2O/kgAir]      4.01
+ Specific Volume [m3/kg]            0.854
+ Degree of Saturation [-]           0.225
+ Enthalpy [kJ/kg]                   33.2 
+ Vapour Pressure [Pa]               642   
+ Air Pressure [Pa]                  100200
+
+Press enter to terminate this console application ... 
